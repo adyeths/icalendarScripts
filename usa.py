@@ -228,7 +228,7 @@ def genholidays(args):
         dates2.append((firstday(i[0], args.y, i[1]) + i[2], i[3]))
 
     # additional unofficial observances
-    dates2.append((easter - 43, "Mardi Gras"))
+    dates2.append((easter - 47, "Mardi Gras"))
     for i in [(2, 2, "Groundhog Day"),
               (2, 14, "Valentine’s Day"),
               (3, 8, "International Women’s Day"),
